@@ -1,0 +1,50 @@
+=================Assignment 1================
+public class Student {
+    // Private member variables
+    private String studentName;
+    private String collegeName;
+    private int studentID;
+
+    public static void main(String[] args) {
+        System.out.println("Successful");
+    }
+}
+
+
+=================Assignment 2===================
+
+public class Employee {
+    // Protected member variables
+    protected int id;
+    protected int age;
+    protected String name;
+    protected boolean isPermanent;
+
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+
+        emp.age = (int) 35.5;  // Casting double to int to avoid error
+
+        System.out.println("Successfully started");
+        System.out.println("Employee age after casting: " + emp.age);
+    }
+}
+
+
+=================Assignment 3======================
+
+package com.anudip.learning;
+
+public class Person {
+    // Member variables initialized along with declaration
+    String name = "John Doe";
+    int age = 30;
+    int salary = 50000;
+
+    public static void main(String[] args) {
+        System.out.println("Test Successful");
+    }
+}
+
+
+
